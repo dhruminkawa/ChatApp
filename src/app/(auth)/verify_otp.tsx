@@ -1,4 +1,5 @@
 import ButtomComp from '@/src/components/atoms/ButtomComp'
+import { storage } from '@/src/utils/utils'
 import OTPInput from "@codsod/react-native-otp-input"
 import AntDesign from '@expo/vector-icons/AntDesign'
 import React, { useState } from 'react'
@@ -10,6 +11,8 @@ import { moderateScale, scale, verticalScale } from 'react-native-size-matters'
 const Verify_Otp = () => {
   const [otp, setOTP] = useState("")
   const onPress =() =>{
+    console.log(otp);
+    storage.set("access_token", "dhrumin")
 
   }
   return (
