@@ -11,6 +11,7 @@
     "lint": "expo lint"
   },
   "dependencies": {
+    "@codsod/react-native-chat": "^1.0.14",
     "@codsod/react-native-otp-input": "^1.0.7",
     "@expo/vector-icons": "^15.0.3",
     "@react-navigation/bottom-tabs": "^7.4.0",
